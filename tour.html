@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,  
+        initial-scale=0.05" />
+  <style>
+    #clock {
+      font-size: 20px;
+      width: 150px;
+      margin: 20px;
+      text-align: center;
+      border: 2px solid wheat;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<title style="text-align:center;">TURKEY</title>
+<div id="clock"></div>
+
+<body style="background-color:powderblue;">
+  
+  <script>
+    setInterval(showTime, 1000);
+    function showTime() {
+      let time = new Date();
+      let hour = time.getHours();
+      let min = time.getMinutes();
+      let sec = time.getSeconds();
+      am_pm = "AM";
+
+      if (hour > 12) {
+        hour -= 12;
+        am_pm = "PM";
+      }
+      if (hour == 0) {
+        hr = 12;
+        am_pm = "AM";
+      }
+
+      hour = hour < 10 ? "0" + hour : hour;
+      min = min < 10 ? "0" + min : min;
+      sec = sec < 10 ? "0" + sec : sec;
+
+      let currentTime = hour + ":"
+        + min + ":" + sec + am_pm;
+
+      document.getElementById("clock")
+        .innerHTML = currentTime;
+    }
+
+    showTime();
+  </script>
+  <style>
+    #test {
+      width: 150px;
+      height: 150px;
+      background: red, TURKEY;
+    }
+
+    h1 {
+      color: red;
+      font-family: verdana;
+      font-size: 100%;
+    }
+
+    p {
+      color: red;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 160%;
+    }
+
+    p {
+      border: 2px double purple;
+      padding: 20px;
+    }
+
+    body {
+      background-color: grey (192, 176, 230);
+    }
+
+    h1 {
+      color: white(128, 30, 0);
+    }
+
+    p {
+      color: darkgreen;
+    }
+  </style>
+  <div id="test">
+    <h1 style="font-size:50px;text-align:center;"><b><abbr><cite>TURKEY</cite></abbr></b></h1>
+  </div>
+  <script src="tour.js">
+  </script>
+  <h1 style="background-color:grey;border:2px solid black;">Experience the Turkish hospitality… Whether you’re looking
+    to learn about a
+    historical treasure trove, mystical natural landscapes or just want to get lost in the labyrinthine bazaars. Turkey
+    Awaits you!!<br>High quality global journalism requires investment. Please share this article with others using the
+    link below, do
+    not cut & paste the article. See our Ts&Cs and Copyright Policy for more detail. Email info@turkey.com to buy
+    additional rights.<br>connect to your World Explore the world with us. Pick your dream destination and see our
+    exclusive
+    travel guide. You can even subscribe to our newsletter, so you won't miss any latest update and the hottest
+    things to do in town.<br>
+    <small><i> High quality global journalism requires investment. Please share this article with others using the link
+        below,
+        do not cut & paste the article. See our Ts&Cs and Copyright Policy for more detail. Email info@turkey.com to buy
+        additional rights.</small></i>
+  </h1>
+  <pre>
+    It’s truly an honor to launch and manage turkey.com. 
+    We sincerely hope this portal reflects the aspirations and dreams of the 75 million people that call Turkey home. 
+    Turkey is a democratic, secular, unitary, constitutional republic with a diverse cultural heritage.
+    We hope to provide insightful and accurate information about the country’s many treasures and share in the story of this magnificent country, 
+    not just for the Turkish people but also for the entire global community of 7 billion people.
+    High quality global journalism requires investment.
+    Please share this article with others using the link below, do not cut & paste the article. See our Ts&Cs and Copyright Policy for more detail. 
+    Email info@turkey.com to buy additional rights.
+  </pre>
+  <p style="background-color:lightslategrey;">Visit ISTANBUL</p>
+  <p style="font-size:100%;"><q>Turkey is a country straddling Eastern Europe and Western Asia. At turkey.com we hope to
+      position ourselves at the center of this nation’s unfolding story and to report on the cultural interaction
+      between
+      the Turkish people and the rest of the world.
+      High quality global journalism requires investment. Please share this article with others using the link below, do
+      not cut & paste the article. See our Ts&Cs and Copyright Policy for more detail. Email info@turkey.com to buy
+      additional rights.</q></p>
+  <a href="https://www.TURKEY.com">TURKEY HERE!!!</a>
+  <img src="istanbul.jpg" width="104" height="142">
+  <img src="istanbul.jpg" width="500" height="600">
+  <img src="istanbul.jpg" width="104" height="142">
+  <a href="https://www.TURKEY.com/html/">{GO TURKEY}</a>
+
+  <address style="text-align: right;">
+    ADDRESS : <br>
+    MEHMET DEMIR<br>
+    AKŞEMSETTİN MAH.:<br>
+    GÖKHAN SOK. NO. 1<br>
+    06934 SİNCAN / ANKARA<br>
+    TURKEY
+  </address>
+  <form action=" ">
+    <label for=" ">Name</label><input type="text" id="fname" onfocus="focusFunction(this)" onblur="blurFunction(this)" oninput="inputFunction(this)"><br>
+    <label for=" ">Number</label><input type ="text" id=" " onfocus="focusFunction(this)" onblur="blurFunction(this)"><br>
+    <label for=" ">Country</label>
+    <select id=" " onfocus="focusFunction(this)" onblur="blurFunction(this)">
+      <option value=" ">India</option>
+      <option value=" ">Iran</option>
+      <option value=" ">Turkey</option>
+      <option value=" ">Jerusalem</option>
+      <option value=" ">London</option>
+      </select>
+      </form>
+      <div id="test" style="border:1px solid red;margin-top: 20px;"></div>
+  
+<script src="tours.js"></script>
+
+</body>
+
+</html>
